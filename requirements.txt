@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+chromadb
+ollama
+python-dotenv
+langchain
+langchain-ollama
+langchain-text-splitters
+httpx
