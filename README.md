@@ -33,21 +33,21 @@ Client Profile + Question
 
 # Real-time Progress
 
-- [Done] Ollama is reachable.
-- [Done] Required LLM is available locally.
-- [Done] `nomic-embed-text` is available locally.
-- [Done] Research documents can be ingested.
-- [Done] ChromaDB persists locally.
-- [ ] Retrieval returns relevant top-5 chunks.
-- [ ] Prompt builder combines research + profile + question.
-- [ ] Ollama generates a response.
-- [ ] `POST /ask` returns structured JSON.
-- [ ] `/health` works.
-- [ ] `/models` works.
-- [ ] `/ingest` works.
-- [ ] Swagger `/docs` works.
-- [ ] Source attribution works.
-- [ ] Latency is measured.
+- Ollama is reachable.
+- Required LLM is available locally.
+- `nomic-embed-text` is available locally.
+- Research documents can be ingested.
+- ChromaDB persists locally.
+- Retrieval returns relevant top-5 chunks.
+- Prompt builder combines research + profile + question.
+- Ollama generates a response.
+- `POST /ask` returns structured JSON.
+- `/health` works.
+- `/models` works.
+- `/ingest` works.
+- Swagger `/docs` works.
+- Source attribution works.
+- Latency is measured.
 - [ ] Unit tests pass.
 - [ ] Docker image builds.
 - [ ] docker-compose configuration works.
