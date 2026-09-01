@@ -5,7 +5,7 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class Settings:
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL")
-    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.2:8b")
+    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.2:latest")
     OLLAMA_EMBED_MODEL: str = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 
     CHROMA_PERSIST_DIRECTORY: str = os.getenv("CHROMA_PERSIST_DIRECTORY")

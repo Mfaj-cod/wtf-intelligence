@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "category": "diversification",
+    "profile": {
+      "primary_goal": "Long-term growth",
+      "horizon_years": 10,
+      "risk_score": 6,
+      "investor_profile": "Balanced growth investor",
+      "current_holdings": ["VTI", "VXUS", "BND"]
+    },
+    "question": "How should I diversify my portfolio across different asset classes and geographies?",
+    "expected_topics": ["portfolio_diversification", "geographic_diversification", "asset_allocation"]
+  },
+  {
+    "id": 2,
+    "category": "risk_management",
+    "profile": {
+      "primary_goal": "Capital preservation",
+      "horizon_years": 3,
+      "risk_score": 2,
+      "investor_profile": "Conservative investor",
+      "current_holdings": ["AGG", "BND", "VGIT"]
+    },
+    "question": "What strategies can I use to manage investment risk given my short time horizon?",
+    "expected_topics": ["risk_management", "systematic_risk", "volatility", "asset_allocation"]
+  },
+  {
+    "id": 3,
+    "category": "market_cycles",
+    "profile": {
+      "primary_goal": "Wealth accumulation",
+      "horizon_years": 20,
+      "risk_score": 7,
+      "investor_profile": "Growth-oriented investor",
+      "current_holdings": ["VTI", "QQQ"]
+    },
+    "question": "How do market cycles affect long-term investors and when should I adjust my allocation?",
+    "expected_topics": ["market_dynamics", "bull_markets", "bear_markets", "valuation"]
+  },
+  {
+    "id": 4,
+    "category": "asset_allocation",
+    "profile": {
+      "primary_goal": "Retirement income",
+      "horizon_years": 5,
+      "risk_score": 3,
+      "investor_profile": "Pre-retiree",
+      "current_holdings": ["VTI", "BND", "VNQ"]
+    },
+    "question": "What is the appropriate asset allocation for someone approaching retirement in 5 years?",
+    "expected_topics": ["asset_allocation", "glide_path", "bond_allocation", "rebalancing"]
+  },
+  {
+    "id": 5,
+    "category": "diversification",
+    "profile": {
+      "primary_goal": "Long-term growth",
+      "horizon_years": 15,
+      "risk_score": 5,
+      "investor_profile": "Moderate investor",
+      "current_holdings": ["VOO"]
+    },
+    "question": "Why should I include international stocks in my portfolio and what allocation makes sense?",
+    "expected_topics": ["portfolio_diversification", "geographic_diversification", "international_equities"]
+  },
+  {
+    "id": 6,
+    "category": "risk_management",
+    "profile": {
+      "primary_goal": "Steady income",
+      "horizon_years": 25,
+      "risk_score": 4,
+      "investor_profile": "Income-focused investor",
+      "current_holdings": ["AGG", "SCHD", "JNJ"]
+    },
+    "question": "How can I manage sequence-of-returns risk while generating portfolio income?",
+    "expected_topics": ["risk_management", "rebalancing", "liquidity_risk", "interest_rate_risk"]
+  },
+  {
+    "id": 7,
+    "category": "long_term_investing",
+    "profile": {
+      "primary_goal": "Build wealth over time",
+      "horizon_years": 35,
+      "risk_score": 7,
+      "investor_profile": "Young professional",
+      "current_holdings": ["VTI", "VTSAX"]
+    },
+    "question": "What is the most effective strategy for building long-term wealth starting in my 20s?",
+    "expected_topics": ["long_term_investing", "compounding", "dollar_cost_averaging", "time_horizon"]
+  },
+  {
+    "id": 8,
+    "category": "market_cycles",
+    "profile": {
+      "primary_goal": "Long-term growth",
+      "horizon_years": 12,
+      "risk_score": 6,
+      "investor_profile": "Balanced investor",
+      "current_holdings": ["VTI", "VXUS", "BND"]
+    },
+    "question": "How should I respond to market downturns and what do valuations tell me about future returns?",
+    "expected_topics": ["market_dynamics", "bear_markets", "valuation_metrics", "mean_reversion"]
+  },
+  {
+    "id": 9,
+    "category": "asset_allocation",
+    "profile": {
+      "primary_goal": "Stable income with growth",
+      "horizon_years": 8,
+      "risk_score": 4,
+      "investor_profile": "Semi-conservative investor",
+      "current_holdings": ["AGG", "VOO", "SCHD"]
+    },
+    "question": "What is an appropriate allocation between stocks and bonds given current interest rates and market conditions?",
+    "expected_topics": ["asset_allocation", "bond_allocation", "interest_rate_risk", "valuation"]
+  },
+  {
+    "id": 10,
+    "category": "risk_and_diversification",
+    "profile": {
+      "primary_goal": "Long-term growth",
+      "horizon_years": 18,
+      "risk_score": 6,
+      "investor_profile": "Balanced growth investor",
+      "current_holdings": ["VTI", "VXUS", "BND", "VNQ"]
+    },
+    "question": "How do I reduce unsystematic risk through diversification while maintaining reasonable returns?",
+    "expected_topics": ["portfolio_diversification", "systematic_risk", "unsystematic_risk", "sector_diversification"]
+  }
+]
