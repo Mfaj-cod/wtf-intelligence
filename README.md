@@ -1,36 +1,5 @@
 # In-House Intelligence Layer
 
-## Project Goal
-
-The target architecture is:
-
-```bash
-Client Profile + Question
-          |
-          v
-       FastAPI
-          |
-          v
-   RAG Retrieval Layer
-          |
-          v
-      ChromaDB
-          |
-      Top-5 Chunks
-          |
-          v
-    Prompt Builder
-          |
-          v
-        Ollama
-    Llama 3.2 model
-          |
-          v
- Structured JSON Response
-```
-
----
-
 # Real-time Progress
 
 - Ollama is reachable.
@@ -59,6 +28,37 @@ Client Profile + Question
 - [ ] README allows another developer to run the project quickly.
 - [ ] Known limitations are documented.
 - [ ] A reasoned production-readiness recommendation exists.
+
+---
+
+## Project Goal
+
+The target architecture is:
+
+```bash
+Client Profile + Question
+          |
+          v
+       FastAPI
+          |
+          v
+   RAG Retrieval Layer
+          |
+          v
+      ChromaDB
+          |
+      Top-5 Chunks
+          |
+          v
+    Prompt Builder
+          |
+          v
+        Ollama
+    Llama 3.2 model
+          |
+          v
+ Structured JSON Response
+```
 
 ---
 
