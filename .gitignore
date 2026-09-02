@@ -16,7 +16,6 @@ wheels/
 # secrets
 *.env
 
-# docs and data
+# docs and vectordb
 /docs
-/data
 /chroma_db

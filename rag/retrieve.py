@@ -25,7 +25,7 @@ class RetrievalHit:
 
 
 class SemanticRetriever:
-    """Retrieval service that embeds queries and reranks ChromaDB results."""
+    """Retrieval service - embeds queries and reranks ChromaDB results."""
 
     def __init__(
         self,

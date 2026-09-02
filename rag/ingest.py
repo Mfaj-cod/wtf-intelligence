@@ -140,6 +140,6 @@ class Ingestor:
             print(f'Unexpected error during ingestion: {exc}')
 
 
-if __name__ == '__main__':
-    ingestor = Ingestor()
-    ingestor.run()
+# if __name__ == '__main__':
+#     ingestor = Ingestor()
+#     ingestor.run()

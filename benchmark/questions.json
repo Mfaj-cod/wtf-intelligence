@@ -1,132 +1,132 @@
 [
   {
     "id": 1,
-    "category": "diversification",
+    "category": "market_conditions",
     "profile": {
       "primary_goal": "Long-term growth",
       "horizon_years": 10,
       "risk_score": 6,
-      "investor_profile": "Balanced growth investor",
-      "current_holdings": ["VTI", "VXUS", "BND"]
+      "investor_profile": "Growth investor",
+      "current_holdings": ["VTI", "VXUS"]
     },
-    "question": "How should I diversify my portfolio across different asset classes and geographies?",
-    "expected_topics": ["portfolio_diversification", "geographic_diversification", "asset_allocation"]
+    "question": "What should a growth investor with a 10-year horizon be aware of in current market conditions?",
+    "expected_topics": ["market_dynamics", "valuation_metrics", "market_cycles"]
   },
   {
     "id": 2,
     "category": "risk_management",
     "profile": {
       "primary_goal": "Capital preservation",
-      "horizon_years": 3,
-      "risk_score": 2,
+      "horizon_years": 2,
+      "risk_score": 1,
       "investor_profile": "Conservative investor",
-      "current_holdings": ["AGG", "BND", "VGIT"]
+      "current_holdings": ["CASH", "MONEY_MARKET"]
     },
-    "question": "What strategies can I use to manage investment risk given my short time horizon?",
-    "expected_topics": ["risk_management", "systematic_risk", "volatility", "asset_allocation"]
+    "question": "Summarise the key risks for a conservative investor holding mostly cash right now.",
+    "expected_topics": ["risk_management", "inflation", "interest_rate_risk", "opportunity_cost"]
   },
   {
     "id": 3,
-    "category": "market_cycles",
-    "profile": {
-      "primary_goal": "Wealth accumulation",
-      "horizon_years": 20,
-      "risk_score": 7,
-      "investor_profile": "Growth-oriented investor",
-      "current_holdings": ["VTI", "QQQ"]
-    },
-    "question": "How do market cycles affect long-term investors and when should I adjust my allocation?",
-    "expected_topics": ["market_dynamics", "bull_markets", "bear_markets", "valuation"]
-  },
-  {
-    "id": 4,
     "category": "asset_allocation",
     "profile": {
       "primary_goal": "Retirement income",
       "horizon_years": 5,
-      "risk_score": 3,
-      "investor_profile": "Pre-retiree",
-      "current_holdings": ["VTI", "BND", "VNQ"]
+      "risk_score": 4,
+      "investor_profile": "Balanced investor",
+      "current_holdings": ["VTI", "BND"]
     },
-    "question": "What is the appropriate asset allocation for someone approaching retirement in 5 years?",
-    "expected_topics": ["asset_allocation", "glide_path", "bond_allocation", "rebalancing"]
+    "question": "What asset allocation would suit someone who wants to retire in 5 years with a balanced risk profile?",
+    "expected_topics": ["asset_allocation", "glide_path", "bond_allocation", "retirement_planning"]
+  },
+  {
+    "id": 4,
+    "category": "diversification",
+    "profile": {
+      "primary_goal": "Wealth accumulation",
+      "horizon_years": 8,
+      "risk_score": 8,
+      "investor_profile": "Alternative investor",
+      "current_holdings": ["BTC", "ETH", "VTI"]
+    },
+    "question": "How should someone with crypto holdings think about portfolio diversification?",
+    "expected_topics": ["portfolio_diversification", "correlation", "risk_management", "alternative_assets"]
   },
   {
     "id": 5,
-    "category": "diversification",
+    "category": "interest_rates",
     "profile": {
       "primary_goal": "Long-term growth",
-      "horizon_years": 15,
+      "horizon_years": 40,
       "risk_score": 5,
-      "investor_profile": "Moderate investor",
-      "current_holdings": ["VOO"]
+      "investor_profile": "First-time investor",
+      "current_holdings": []
     },
-    "question": "Why should I include international stocks in my portfolio and what allocation makes sense?",
-    "expected_topics": ["portfolio_diversification", "geographic_diversification", "international_equities"]
+    "question": "What does the current interest rate environment mean for a first-time investor?",
+    "expected_topics": ["interest_rate_risk", "bond_yields", "asset_allocation", "valuation"]
   },
   {
     "id": 6,
-    "category": "risk_management",
+    "category": "advisor_questions",
     "profile": {
-      "primary_goal": "Steady income",
+      "primary_goal": "Comprehensive planning",
       "horizon_years": 25,
-      "risk_score": 4,
-      "investor_profile": "Income-focused investor",
-      "current_holdings": ["AGG", "SCHD", "JNJ"]
+      "risk_score": 5,
+      "investor_profile": "New client",
+      "current_holdings": []
     },
-    "question": "How can I manage sequence-of-returns risk while generating portfolio income?",
-    "expected_topics": ["risk_management", "rebalancing", "liquidity_risk", "interest_rate_risk"]
+    "question": "What are the most important questions an advisor should ask in a first client meeting?",
+    "expected_topics": ["investor_profiling", "risk_tolerance", "time_horizon", "goals"]
   },
   {
     "id": 7,
-    "category": "long_term_investing",
+    "category": "strategy_comparison",
     "profile": {
-      "primary_goal": "Build wealth over time",
-      "horizon_years": 35,
-      "risk_score": 7,
-      "investor_profile": "Young professional",
-      "current_holdings": ["VTI", "VTSAX"]
+      "primary_goal": "Mixed objectives",
+      "horizon_years": 20,
+      "risk_score": 5,
+      "investor_profile": "Balanced investor",
+      "current_holdings": ["VTI", "BND"]
     },
-    "question": "What is the most effective strategy for building long-term wealth starting in my 20s?",
-    "expected_topics": ["long_term_investing", "compounding", "dollar_cost_averaging", "time_horizon"]
+    "question": "Explain the difference between a growth and income investment strategy in plain English.",
+    "expected_topics": ["growth_strategy", "income_strategy", "asset_allocation", "risk_profile"]
   },
   {
     "id": 8,
-    "category": "market_cycles",
+    "category": "advisor_due_diligence",
     "profile": {
-      "primary_goal": "Long-term growth",
-      "horizon_years": 12,
-      "risk_score": 6,
-      "investor_profile": "Balanced investor",
-      "current_holdings": ["VTI", "VXUS", "BND"]
+      "primary_goal": "Financial planning",
+      "horizon_years": 15,
+      "risk_score": 3,
+      "investor_profile": "Cautious investor",
+      "current_holdings": ["AGG"]
     },
-    "question": "How should I respond to market downturns and what do valuations tell me about future returns?",
-    "expected_topics": ["market_dynamics", "bear_markets", "valuation_metrics", "mean_reversion"]
+    "question": "What red flags should an advisor look for in a new client's financial situation?",
+    "expected_topics": ["risk_management", "financial_planning", "portfolio_analysis"]
   },
   {
     "id": 9,
-    "category": "asset_allocation",
+    "category": "inflation_impact",
     "profile": {
-      "primary_goal": "Stable income with growth",
-      "horizon_years": 8,
-      "risk_score": 4,
-      "investor_profile": "Semi-conservative investor",
-      "current_holdings": ["AGG", "VOO", "SCHD"]
+      "primary_goal": "Wealth preservation and growth",
+      "horizon_years": 30,
+      "risk_score": 6,
+      "investor_profile": "Long-term investor",
+      "current_holdings": ["VTI", "BND"]
     },
-    "question": "What is an appropriate allocation between stocks and bonds given current interest rates and market conditions?",
-    "expected_topics": ["asset_allocation", "bond_allocation", "interest_rate_risk", "valuation"]
+    "question": "How does inflation affect a long-term wealth-building strategy?",
+    "expected_topics": ["inflation_protection", "real_returns", "asset_allocation", "long_term_investing"]
   },
   {
     "id": 10,
-    "category": "risk_and_diversification",
+    "category": "investor_profile",
     "profile": {
-      "primary_goal": "Long-term growth",
-      "horizon_years": 18,
-      "risk_score": 6,
-      "investor_profile": "Balanced growth investor",
-      "current_holdings": ["VTI", "VXUS", "BND", "VNQ"]
+      "primary_goal": "Balanced growth with stability",
+      "horizon_years": 15,
+      "risk_score": 5,
+      "investor_profile": "Balanced investor",
+      "current_holdings": ["VTI", "BND", "VXUS"]
     },
-    "question": "How do I reduce unsystematic risk through diversification while maintaining reasonable returns?",
-    "expected_topics": ["portfolio_diversification", "systematic_risk", "unsystematic_risk", "sector_diversification"]
+    "question": "What does a Balanced investor profile mean in terms of expected returns and drawdowns?",
+    "expected_topics": ["investor_profiling", "risk_tolerance", "volatility", "return_expectations"]
   }
 ]

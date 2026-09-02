@@ -24,6 +24,7 @@ def generate_response(payload: AskRequest):
         raise HTTPException(status_code=400, detail="Question is required.")
 
     active_model = resolve_model_name()
+
     retriever = SemanticRetriever(
         db_path=settings.CHROMA_PERSIST_DIRECTORY,
         collection_name=settings.CHROMA_COLLECTION_NAME,
@@ -31,6 +32,7 @@ def generate_response(payload: AskRequest):
         top_k=settings.TOP_K,
     )
     retrieval_started = time.perf_counter()
+
     try:
         retrieved = retriever.search(question, top_k=settings.TOP_K)
     except ValueError as exc:
@@ -70,6 +72,7 @@ def generate_response(payload: AskRequest):
         for item in context_chunks
         if item.get("source")
     ]
+    
     total_latency_ms = int((time.perf_counter() - request_started) * 1000)
     tokens_generated = max(1, len(response_text.split()))
 

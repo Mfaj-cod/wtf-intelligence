@@ -10,3 +10,4 @@ langchain
 langchain-ollama
 langchain-text-splitters
 httpx
+groq

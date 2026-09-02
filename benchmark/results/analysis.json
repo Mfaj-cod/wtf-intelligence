@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "total_questions": 10,
+    "runs_per_question": 3,
+    "total_results": 30
+  },
+  "performance": {
+    "local": {
+      "mean_latency_ms": 75238.31779333123,
+      "median_latency_ms": 78540.49060000398,
+      "min_latency_ms": 40652.184899983695,
+      "max_latency_ms": 103598.11229998013,
+      "p95_latency_ms": 99494.53779999749,
+      "std_dev_latency_ms": 17116.76384071697,
+      "mean_tokens": 416.06666666666666,
+      "mean_tokens_per_second": 5.529983642238542
+    },
+    "groq": {
+      "mean_latency_ms": 1884.0759900039604,
+      "median_latency_ms": 1813.97575000301,
+      "min_latency_ms": 1568.987400009064,
+      "max_latency_ms": 2618.9651000022423,
+      "p95_latency_ms": 2313.931799988495,
+      "std_dev_latency_ms": 225.05534939007316,
+      "mean_tokens": 500,
+      "mean_tokens_per_second": 265.3820772902843
+    }
+  },
+  "quality": {
+    "local": {
+      "mean_relevance": 4.6,
+      "mean_reasoning": 3.6,
+      "mean_personalization": 4.2,
+      "mean_grounding": 3.9,
+      "mean_completeness": 4.3,
+      "mean_factuality": 3.5,
+      "mean_overall": 3.8,
+      "total_hallucinations": 14.0,
+      "hallucination_rate": 0.8
+    },
+    "groq": {
+      "mean_relevance": 4.8,
+      "mean_reasoning": 4.8,
+      "mean_personalization": 4.8,
+      "mean_grounding": 4.3,
+      "mean_completeness": 2.3,
+      "mean_factuality": 4.3,
+      "mean_overall": 3.8,
+      "total_hallucinations": 7.0,
+      "hallucination_rate": 0.5
+    }
+  },
+  "question_comparison": [
+    {
+      "question_id": 1,
+      "question": "What should a growth investor with a 10-year horizon be aware of in current market conditions?",
+      "local_latency_ms": 59540.92520000995,
+      "groq_latency_ms": 1768.6325999966357,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 2,
+      "question": "Summarise the key risks for a conservative investor holding mostly cash right now.",
+      "local_latency_ms": 77748.10520000756,
+      "groq_latency_ms": 2051.3027000124566,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 3,
+      "question": "What asset allocation would suit someone who wants to retire in 5 years with a balanced risk profile?",
+      "local_latency_ms": 83543.94240002148,
+      "groq_latency_ms": 1737.939099984942,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 4,
+      "question": "How should someone with crypto holdings think about portfolio diversification?",
+      "local_latency_ms": 98861.14619998261,
+      "groq_latency_ms": 1926.2064000067767,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 5,
+      "question": "What does the current interest rate environment mean for a first-time investor?",
+      "local_latency_ms": 83469.52129999408,
+      "groq_latency_ms": 1960.958199982997,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 6,
+      "question": "What are the most important questions an advisor should ask in a first client meeting?",
+      "local_latency_ms": 87449.54169998528,
+      "groq_latency_ms": 1831.1856999935117,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 7,
+      "question": "Explain the difference between a growth and income investment strategy in plain English.",
+      "local_latency_ms": 90133.6416999984,
+      "groq_latency_ms": 1969.7447000071406,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 8,
+      "question": "What red flags should an advisor look for in a new client's financial situation?",
+      "local_latency_ms": 88777.17570000095,
+      "groq_latency_ms": 1999.3549000064377,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 9,
+      "question": "How does inflation affect a long-term wealth-building strategy?",
+      "local_latency_ms": 81196.5108999866,
+      "groq_latency_ms": 1682.5096000102349,
+      "local_error": null,
+      "groq_error": null
+    },
+    {
+      "question_id": 10,
+      "question": "What does a Balanced investor profile mean in terms of expected returns and drawdowns?",
+      "local_latency_ms": 84140.05129999714,
+      "groq_latency_ms": 1796.7658000125084,
+      "local_error": null,
+      "groq_error": null
+    }
+  ]
+}
